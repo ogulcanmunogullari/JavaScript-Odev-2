@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapılacaklar Listesi</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body onload="writeList()">
+
+    <div class="container">
+        <!-- Görünmez Alertler Başlangıç -->
+        <p class="basarili invis">
+            İşlem başarılı
+        </p>
+        <p class="basarisiz invis">
+            İşlem başarısız
+        </p>
+        <!-- Görünmez Alertler Bitiş -->
+
+        <!-- Navigasyon Başlangıç -->
+        <nav>
+            <h1 class="">KODLUYORUZ</h1>
+            <h2>Yapılacaklar Listesi</h2>
+            <div class="input">
+                <input id="task" type="text" placeholder="Bugün ne yapacaksın?">
+                <span class="buttonana" onclick="newElement()">Ekle</span>
+            </div>
+        </nav>
+        <!-- Navigasyon Bitiş -->
+
+        <!-- Boş Liste Başlangıç -->
+        <ul id="list"></ul>
+        <!-- Boş Liste Bitiş -->
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  margin: auto;
+}
+nav {
+  background-color: #ed881a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 10px 0;
+}
+.input {
+  display: flex;
+  width: 80%;
+}
+#task {
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 200px 0 0 200px;
+  padding-left: 40px;
+  background-color: rgb(240, 240, 240);
+}
+.buttonana {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ed881a;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0 50px 50px 0;
+}
+.buttonana:hover {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid #ed881a;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+li {
+  list-style: none;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-radius: 200px 200px;
+  padding: 0 0px 0 40px;
+  border: 1px solid rgb(200, 200, 200);
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+li:nth-child(even) {
+  background-color: #ed871a50;
+}
+
+.checked {
+  text-decoration: line-through;
+  text-decoration-color: black;
+  color: red;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: #ed881a;
+  text-decoration: none;
+}
+button:hover {
+  background-color: rgb(240, 240, 240);
+}
+.basarili {
+  background-color: rgb(0, 201, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.basarisiz {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.invis {
+  display: none;
+}
